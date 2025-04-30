@@ -80,13 +80,6 @@ open index.html  # or open in VSCode + Live Server
 
 ---
 
-## 📸 Screenshots
-
-| Home Page (Carousel) | BMI Calculator | Contact Form |
-|----------------------|----------------|--------------|
-| ![Home](img/hero-image1.png) | ![BMI](img/bmi-sample.png) | ![Contact](img/contact-sample.png) |
-
----
 
 ## ✨ Credits
 
