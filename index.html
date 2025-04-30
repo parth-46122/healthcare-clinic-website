@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Healthcare Clinic | Your Health, Our Priority</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Loading animation -->
+    <div id="preloader"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Healthcare Clinic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bmi.html">BMI Calculator</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main container">
+        <!-- Hero Carousel -->
+        <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active ">
+                    <img src="img/hero-image1.png" class="d-block w-100 rounded-3" alt="Clinic Image">
+                    <div class="carousel-caption d-none d-md-block"
+                        style="text-shadow: 0px 0px 20px #010102; color: white;">
+                        <h1>Your Health, Our Priority</h1>
+                        <p>Professional care you can trust</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/hero-image2.png" class="d-block w-100 rounded-3" alt="Doctors">
+                    <div class="carousel-caption d-none d-md-block"
+                        style="text-shadow: 0px 0px 20px #00bbff; color: rgb(0, 0, 0);">
+                        <h1>Expert Doctors & Staff</h1>
+                        <p>Experienced, Compassionate, Reliable</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="main2 container">
+        <!-- About Section -->
+        <section class="py-5 bg-light" id="about">
+            <div class="container" data-aos="fade-up">
+                <h2 class="text-center mb-4">About Our Clinic</h2>
+                <p class="text-center">We are committed to providing high-quality, affordable healthcare services. Our
+                    clinic combines cutting-edge technology with a human touch.</p>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="py-5" id="services">
+            <div class="container" data-aos="fade-up">
+                <h2 class="text-center mb-4">Our Services</h2>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5>General Consultation</h5>
+                                <p>Comprehensive diagnosis and personalized care plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5>Diagnostics</h5>
+                                <p>Laboratory and radiology services using the latest equipment.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5>Emergency Care</h5>
+                                <p>24/7 emergency services with fully equipped ambulance support.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="py-5 bg-light rounded-3" id="testimonials">
+            <div class="container" data-aos="fade-up">
+                <h2 class="text-center mb-4">What Our Patients Say</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p>"The doctors are very kind and professional. The environment is clean and calm."</p>
+                            <footer class="blockquote-footer">Sneha Patel</footer>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-6">
+                        <blockquote class="blockquote">
+                            <p>"Got my results quickly and received great follow-up care."</p>
+                            <footer class="blockquote-footer">Rahul Mehta</footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-5 text-center text-dark bg-info-emphasis" id="cta">
+            <div class="container" data-aos="zoom-in">
+                <h2>Book an Appointment Today</h2>
+                <p class="mb-4">Your health journey starts here. Get in touch with our team now.</p>
+                <a href="contact.html" class="btn btn-light btn-lg">Contact Us</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-info text-center">
+        <div class="container">
+            <p>© 2025 Healthcare Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap JS and AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
