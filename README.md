@@ -8,7 +8,7 @@
 ---
 
 ## 🔗 Live Demo
-👉 [View Website](https://nautan-pranami.github.io/healthcare-clinic-website/index.html)  
+👉 [View Website](https://parth-46122.github.io/healthcare-clinic-website/)  
 *(Replace with your Netlify/GitHub Pages link once deployed)*
 
 ---
@@ -59,21 +59,13 @@
 
 This website uses [Formspree.io](https://formspree.io/) for handling form submissions without a backend.
 
-```html
-<form action="https://formspree.io/f/your_form_id" method="POST">
-  ...
-</form>
-```
-👉 Replace `your_form_id` with your actual Formspree endpoint.
-
----
 
 ## 🚀 Getting Started (Local)
 
 To run this project locally:
 
 ```bash
-git clone https://github.com/your-username/healthcare-clinic-website.git
+git clone https://github.com/parth-46122/healthcare-clinic-website.git
 cd healthcare-clinic-website
 open index.html  # or open in VSCode + Live Server
 ```
@@ -83,7 +75,7 @@ open index.html  # or open in VSCode + Live Server
 
 ## ✨ Credits
 
-Created by [Your Name]  
+Created by [Parth]  
 A frontend web developer passionate about clean UI, accessibility, and user-centered design.
 
 ---
